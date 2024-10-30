@@ -1,0 +1,4768 @@
+.force-display-block {
+	display: block !important;
+}
+html[data-useragent*='MSIE 10.0'] #specialty_medicine_page .slider-content-grey .tab-items
+{
+  display: block !important;
+}
+/*.datepicker.dropdown-menu 
+{
+	left:0px !important; overflow:hidden;
+}*/
+.tribe-events-nav-next a {
+	color: #6E2C3F !important;
+}
+/*===========================================================
+
+
+
+
+
+
+
+/ 1 - Custom Fonts                                          /
+
+
+
+
+
+
+
+/ 2 - General Styles                                        /
+
+
+
+
+
+
+
+/ 3 - Header  
+
+
+
+
+
+
+
+/     3.1  navbar                                           /
+
+
+
+
+
+
+
+/     3.1  Header Slider                                    /
+
+
+
+
+
+
+
+/ 4 - Modern Medicine Section                               /
+
+
+
+
+
+
+
+/ 4 - Modern Medicine Section                               /
+
+
+
+
+
+
+
+/ 6  - Career Opportunity Section                           /
+
+
+
+
+
+
+
+/ 7  - Contact Today Section	                            /
+
+
+
+
+
+
+
+/ 8  - Footer  					                            /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+
+
+
+
+
+
+
+ 1  - Custom Fonts
+
+
+
+
+
+
+
+=======================================*/
+
+
+.page-template-templatesboard_members-php .close {
+	float: none !important;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.events-archive .datepicker.dropdown-menu {
+	overflow: hidden;
+	width: 212px;
+}
+@font-face {
+	font-family: 'AvenirNextLTProRegular';
+	src: url('../fonts/AvenirNextLTProRegular.eot');
+	src: url('../fonts/AvenirNextLTProRegular.eot') format('embedded-opentype'), url('../fonts/AvenirNextLTProRegular.woff2') format('woff2'), url('../fonts/AvenirNextLTProRegular.woff') format('woff'), url('../fonts/AvenirNextLTProRegular.ttf') format('truetype'), url('../fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
+}
+@font-face {
+	font-family: 'AvenirNextLTProDemi';
+	src: url('../fonts/AvenirNextLTProDemi.eot');
+	src: url('../fonts/AvenirNextLTProDemi.eot') format('embedded-opentype'), url('../fonts/AvenirNextLTProDemi.woff2') format('woff2'), url('../fonts/AvenirNextLTProDemi.woff') format('woff'), url('../fonts/AvenirNextLTProDemi.ttf') format('truetype'), url('../fonts/AvenirNextLTProDemi.svg#AvenirNextLTProDemi') format('svg');
+}
+/*======================================
+
+
+
+
+
+
+
+ 2  - General Styles
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* centered columns styles */
+.row-centered {
+	text-align: center;
+}
+.col-centered {
+	display: inline-block !important;
+	float: none;
+	/* reset the text-align */
+	text-align: left;
+	/* inline-block space fix */
+	margin-right: -4px;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'AvenirNextLTProRegular';
+	font-size: 14px;
+	line-height: 24px;
+	color: #414042;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+section {
+	padding: 100px 0;
+}
+p, .p {
+	font-size: 18px;
+	line-height: 36px;
+	margin: 15px 0;
+}
+h2, .h2 {
+	font-size: 48px;
+	line-height: 48px;
+	margin: 20px 0;
+}
+h1, .h1 {
+	font-size: 36px;
+	line-height: 42px;
+	margin: 18px 0;
+}
+a, .a {
+	color: #ffffff;
+}
+a:hover, .a:focus {
+	color: #ffffff;
+}
+.tribe-events-nav-next a {
+	color: #6E2C3F !important;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: block;
+}
+/* Background colors */
+
+
+
+
+
+
+
+.nopadding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.nopright {
+	padding-right: 0;
+}
+.nopleft {
+	padding-left: 0;
+}
+.nomargin {
+	margin: 0px;
+}
+.container {
+	width: 1200px;
+}
+.innerpage-bg {
+	background-color: #F7F4E3;
+}
+.flexbox {/*display: -webkit-box;*/
+	-webkit-box-flex: 1;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-flexbox;
+	display: flex !important;
+}
+.flex-middle {
+	align-items: center;
+	align-content: center;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.flex-row-reverse {
+	flex-direction: row-reverse
+}
+.blue {
+	color: #497A7B;
+}
+.slider-content-grey {
+	background-color: #404042;
+	color: #fff;
+	padding: 5em 0;
+}
+.vmiddle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -50%, 0px);
+	-webkit-transform: translate3d(-50%, -50%, 0px);
+}
+.rel {
+	position: relative
+}
+.img.cover {
+	padding: 0;
+}
+.img.cover img {
+	object-fit: cover;
+	width: 100%;
+}
+a.wrap:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+}
+.inherit-color {
+	color: inherit
+}
+.height-auto {
+	height: auto !important
+}
+#site_wrap {
+	overflow-x: hidden;
+}
+/*======================================
+
+
+
+
+
+
+
+ 3  - Header
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.header {
+	height: auto;
+	overflow: hidden;
+	position: relative;/*  z-index: 1;
+*/
+}
+.header::after {
+	background-color: transparent;
+	content: "";
+	display: block;
+	height: 96px;
+	left: 0;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.header ~ section {
+	position: relative;
+	z-index: 0;
+}
+.inner-header {
+	height: auto;
+}
+header.slider .carousel-caption {
+	width: 70% !important;
+}
+header.slider .carousel-caption .slider-btn-cover {
+	width: 70% !important;
+}
+/* 3.1 Navbar */
+
+
+
+
+
+
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+	z-index: 3;
+}
+.navbar {
+	height: auto;
+	min-height: 113px;
+	margin-bottom: 0;
+}
+.nav > li > a {
+	color: #702c3f;
+	line-height: 53px !important;
+	padding-top: 50px !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar-default .navbar-nav > li {
+	margin-right: 1px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #702c3f;
+	font-size: 15px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.navbar-brand img {
+	width: 100%;
+}
+.dropdown-menu > li > a {
+	padding: 10px 41px 10px 20px;
+	color: #333 !important;
+}
+header.header .dropdown-menu > li.current-menu-item:not(.open) > a {
+	color: #fff !important
+}
+header.header .dropdown-menu > li.current-menu-item > a:hover {
+	color: #333 !important
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+/* On scroll Navbar Sticky */
+
+
+
+
+
+
+
+#primaery-navbar.sticky {
+	background: #ffffff none repeat scroll 0 0;
+	color: #702c3f;
+	height: 50px;
+	position: fixed;
+	text-align: center;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	z-index: 250;
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+}
+.home #primaery-navbar.sticky {
+	background: transparent;
+}
+#primaery-navbar.sticky .navbar-brand {
+	line-height: 15px;
+	height: auto;
+	color: #fff;
+}
+#primaery-navbar.sticky .navbar-brand::after {
+	top: 14px;
+	background-color: #fff;
+}
+#primaery-navbar.sticky .navbar-brand span {
+	color: #fff;
+}
+#primaery-navbar.sticky .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #fff;
+}
+#primaery-navbar.sticky .navbar-nav > li > a {
+	color: #702c3f;
+	line-height: 52px !important;
+}
+#primaery-navbar.sticky .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+}
+#primaery-navbar.sticky.navbar {
+	min-height: 96px;
+}
+#primaery-navbar.sticky .nav > li > a {
+	line-height: 36px !important;
+}
+.dropdown-menu {
+	box-shadow: none;
+}
+/* 3.2 Header Slider  */
+
+
+
+
+#insurance_page #section_3 h4 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+#myCarousel {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none !important;
+	opacity: 1;
+	z-index: 100;
+}
+.carousel-inner > .item {
+	height: 703px;
+	overflow: hidden;
+}
+.carousel-inner > .item > img {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%)
+}
+.item .container {
+	position: relative;
+}
+.carousel-control.left {
+ top:46% left: 0;
+	top: 0;
+	line-height: 703px;
+}
+.carousel-control.right {
+ top:46% right: 0;
+	top: 0;
+	line-height: 703px;
+}
+.carousel-control {
+	width: 6%;
+}
+.carousel-caption {
+	height: auto;
+	left: 0;
+	text-align: left;
+	top: -530px;
+}
+.slider-nav .item img {width:auto !important}
+.carousel-inner > .item > a > img {
+	height: 703px;
+}
+.carousel-caption h2 {
+	font-size: 48px;
+	line-height: 60px;
+	color: #702c3f;
+	text-shadow: none;
+	font-family: 'AvenirNextLTProRegular'!important;
+}
+.bold-text {
+	font-family: 'AvenirNextLTProDemi'!important;
+	font-weight: bold;
+	line-height: 37px;
+}
+p.caption {
+	padding: 6px;
+	text-shadow: none;
+	color: #702c3f;
+	font-size: 20px;
+	line-height: 36px;
+	width: 416px;
+}
+#myCarousel a.custom-btn, a.custom-btn-border {
+	line-height: 53px !important;
+}
+.custom-btn {
+	width: 100%;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	height: 62px;
+	background-color: #702c3f;
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	border: 2px solid #702c3f;
+	font-size: 26px;
+	line-height: 44px;
+	color: #fff;
+}
+.custom-btn:hover {
+	background-color: transparent;
+	border: 2px solid #702c3f;
+	color: #702c3f;
+}
+.custom-btn-border {
+	width: 100%;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	height: auto;
+	line-height: normal !important;
+	background-color: transparent;
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	border: 2px solid #702c3f;
+	font-size: 26px;
+	color: #702c3f;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+}
+.custom-btn-border:hover {
+	background-color: #702c3f;
+	border: 2px solid #702c3f;
+	color: #ffffff;
+}
+.slider-btn-cover {
+	margin-top: 40px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 4  - Modern Medicine Section
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.modern-medicine-sec {
+	background-color: #f8f4e5;
+}
+.sec-heading-cover h1 {
+	font-size: 48px;
+	color: #497a7b;
+}
+.sec-heading-cover p {
+	font-size: 18px;
+}
+.main-modren-cover {
+	border-bottom: 1px solid #702c3f;
+	border-right: 1px solid #702c3f;
+	padding: 0;
+	height: 366px;
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	cursor: pointer;
+}
+.modern-madecine-single h1 {
+	font-size: 36px;
+	color: #702c3f;
+}
+.main-modren-cover:hover {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+.main-modren-cover:hover h1 {
+	color: #FFF;
+}
+.main-modren-cover:nth-child(even) {
+	border-right: none;
+}
+.main-modren-cover:nth-child(3), .main-modren-cover:nth-child(4) {
+	border-bottom: none;
+}
+.modern-madecine-single {
+	padding: 30px 50px;
+}
+/*.modern-madecine-single {
+
+
+
+
+
+
+
+	padding: 30px 50px; 
+
+
+
+
+
+
+
+	transition-duration: .3s;
+
+
+
+
+
+
+
+	-webkit-transition-duration: .3s;
+
+
+
+
+
+
+
+	-moz-transition-duration: .3s;
+
+
+
+
+
+
+
+	cursor: pointer;
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+}*/
+
+
+
+
+
+
+
+.modern-service-cover {
+	margin-top: 60px;
+}
+.modern-service-cover .main-modren-cover {
+	position: relative
+}
+.modern-madecine-single:hover .icon-service-1 {
+	background-image: url('../images/modern-icon-1-hover.png');
+}
+.modern-madecine-single:hover .icon-service-2 {
+	background-image: url('../images/modern-icon-2-hover.png');
+}
+.modern-madecine-single:hover .icon-service-3 {
+	background-image: url('../images/modern-icon-3-hover.png');
+}
+.modern-madecine-single:hover .icon-service-4 {
+	background-image: url('../images/modern-icon-4-hover.png');
+}
+.icon-service-1, .icon-service-2, .icon-service-3, .icon-service-4 {
+	background-image: url('../images/modern-icon-1.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 86px;
+}
+.icon-service-2 {
+	background-image: url('../images/modern-icon-2.png');
+}
+.icon-service-3 {
+	background-image: url('../images/modern-icon-3.png');
+}
+.icon-service-4 {
+	background-image: url('../images/modern-icon-4.png');
+}
+.modern-madecine-single p {
+	font-size: 18px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 5  - Our Mission Section
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.ourmission-sec {
+	background-image: url('../images/sec-bg.png');
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;
+}
+.ourmission-heading h1 {
+	font-size: 48px;
+	color: #ffffff;
+}
+.ourmission-content p {
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 36px;
+}
+.overlay-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/overlay.png');
+	background-repeat: repeat;
+	position: absolute;
+	top: 0;
+	z-index: 4;
+}
+.sect-content-container {
+	position: relative;
+	z-index: 6;
+}
+.ourmission-btn-cover {
+	width: 280px;
+	margin: 50px auto 20px;
+}
+.ourmission-btn {
+	display: inline-block;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+.ourmission-btn:hover {
+	color: #487A7B !important;
+	background-color: #ffffff;
+}
+/*======================================
+
+
+
+
+
+
+
+ 6  - Career Opportunity Section
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.career-opp-sec {
+	background-color: #f8f4e5;
+	padding-bottom: 0;
+}
+.career-opp-content h1 {
+	color: #702c3f;
+	font-size: 48px;
+}
+.career-opp-content p {
+	font-size: 24px;
+	line-height: 36px;
+}
+.career-opp-content .pull-left {
+	padding-left: 0px;
+	padding-right: 0;
+}
+.career-opp-btn-cover {
+	margin-top: 40px;
+}
+.opportunity-img-cover img {
+	width: 100%;
+}
+.col-sm-offset-3 {
+	margin-left: 0;
+}
+/*======================================
+
+
+
+
+
+
+
+ 7  - Contact Today Section
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.contact-today-sec {
+	background-color: #487a7b;
+	padding-bottom: 50px;
+}
+.contact-today-content h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.contact-today-content p {
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 48px;
+}
+.contact-today-content p.bottom-line-text {
+	font-size: 24px;
+}
+.contact-today-sec p.bottom-line-text {
+	font-size: 22px;
+	color: #ffffff;
+	line-height: 48px;
+	height: 30px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 8  - Footer
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.footer-contact-cover {
+	padding: 0;
+}
+.footernav-cover {
+	padding: 9px 0;
+	background-color: #414042;
+}
+.footer-nav-ul {
+	margin-bottom: 0;
+}
+.footer-nav-ul li {
+	display: inline-block;
+}
+.footer-nav-ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 33px 20px;
+	line-height: 64px;
+	text-decoration: none;
+}
+.social-icon-cover {
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 30px;
+	color: #ffffff;
+	display: block;
+	float: right;
+}
+.social-icon-cover:hover {
+	border: 3px solid #487A7B;
+}
+.social-icon-cover:hover i {
+	color: #487A7B;
+}
+.footer-nav-ul li a:hover {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+.copyright-text, .designed-by-text {
+	font-size: 18px;
+	line-height: 42px;
+}
+.copyright-text p, .designed-by-text p {
+	margin-bottom: 0;
+}
+.designed-by-text a {
+	text-decoration: none;
+	color: #414042;
+}
+.designed-by-text a:hover {
+	color: #487a7b;
+}
+/*======================================
+
+
+
+
+
+
+
+ 9  - Our Serivce Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.ourserive-sec {
+	background-image: url('../images/our-services-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	padding-bottom: 0;
+}
+.our-services-container {
+	background-color: #712C3F;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 220px;
+	padding: 40px 110px;
+	margin-bottom: 30px;
+}
+.our-serivces-headig h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.our-services-para p {
+	font-size: 26px;
+	line-height: 36px;
+}
+/* services grid section */
+
+
+
+
+
+
+
+.sg-sec {
+}
+.service-img-cover {
+	position: relative;
+	height: 278px;
+	overflow: hidden;
+}
+.service-name-half {
+	height: 139px !important;
+}
+.service-img-cover a img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+.no-objectfit .service-img-cover a img {
+    width: auto !important;
+    min-width: 100%;
+    height: auto;
+	float:right;
+}
+.no-objectfit .img_responsive_cover {
+    background-repeat: no-repeat;
+	background-position:right;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	left:0px;
+	top:0px;
+	background-size:cover;
+}
+
+
+.service-img-cover a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.service-img-cover a:hover .service-overlay {
+	opacity: 0;
+}
+.service-overlay {
+	background-color: #487a7b;
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.service-name {
+	position: absolute;
+	top: 0;
+	height: 278px;
+	width: 100%;
+	line-height: 45px;
+	text-align: center;
+	font-size: 25px;
+	color: #ffffff;
+	font-weight: 400;
+	z-index: 3;
+	display: table;
+}
+.service-name p {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 20px;
+	font-size: 22px;
+}
+.grey-color-dark {
+	background-color: #818284;
+}
+.dark-brow-color {
+	background-color: #712C3F;
+}
+.light-blue-bg {
+	background-color: #9AAFB2;
+}
+.light-pink-color {
+	background-color: #A98084;
+}
+.green-color-bg {
+	background-color: #497B7C !important;
+}
+.black-color-bg {
+	background-color: #404042;
+}
+.service-half-vertically {
+	height: 139px;
+	overflow: hidden;
+}
+.service-half-vertically .service-name {
+	line-height: 139px;
+}
+#labordelivery_page #section_4 {
+	padding: 0px;
+}
+#labordelivery_page #section_4 .box-text-area {
+	padding-top: 50px !important;
+	/*padding:90px !important;*/ background: #F8F4E5;
+}
+/*======================================
+
+
+
+
+
+
+
+10  - Special Service Section
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.special-service-sec {
+	background-image: url('../images/special-service-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 0;
+}
+.special-s-heading {
+	padding: 0 135px 26px;
+}
+.special-s-heading h1 {
+	color: #48797d;
+	font-family: AvenirNextLTProDemi;
+	font-size: 46px;
+	font-weight: bolder;
+}
+.special-s-heading p {
+	font-size: 24px !important;
+	line-height: 40px;
+}
+.special-s-list {
+	padding-left: 50px;
+}
+.special-s-list ul li {
+	background-image: url('../images/heart-li.png');
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	line-height: 45px;
+	font-size: 17px;
+	background-position: 2px 12px;
+}
+.special-s-list ul li a {
+	color: inherit
+}
+.contact-today-content-inner h1 {
+	font-size: 36px;
+}
+.contact-today-content-inner p {
+	font-size: 24px;
+}
+.contact-today-content-inner .ourmission-btn-cover {
+	margin: inherit;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.contact-today-content-inner p.bottom-line-text {
+	font-size: 18px;
+}
+/* upcoming events and classes */
+
+
+
+
+
+
+
+.events-and-classes h1 {
+	font-style: 36px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.events-list {
+	margin-top: 30px;
+}
+.events-list li {
+	margin-bottom: 10px;
+}
+#tribe-events .events-list li a {
+	font-size: 24px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.events-list li img {
+	margin-right: 25px;
+}
+.more-events {
+	font-weight: 600;
+}
+.events-list .more-events[class] {
+	display: inline-block;
+	font-size: 22px;
+	padding-left: 8px;
+	padding-top: 0.5em;
+	text-decoration: underline;
+	float: right;
+}
+.emer-pageheading {
+	width: auto !important;
+}
+#emergency_page #section_3 h2 {
+	font-size: 30px !important;
+	line-height: 30px !important;
+}
+#emergency_page #section_3 p {
+	margin-top: 15px !important;
+}
+/*======================================
+
+
+
+
+
+
+
+ 11  - Patient Information
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.patientinfo-sec {
+	background-image: url('../images/patient-page-img.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	padding-bottom: 0;
+}
+.patient-info-container {
+	background-color: #712C3F;
+	color: #ffffff;
+	text-align: center;
+	padding: 40px 20px 10px;
+	margin-top: 129px;
+	margin-bottom: 30px;
+}
+.patient-info-headig h1 {
+	font-size: 42px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.patient-info-para p {
+	font-size: 26px;
+	line-height: 36px;
+	padding: 0 90px;
+}
+.patient-info-para .slider-btn-cover {
+	margin-top: 15px;
+}
+.slider-btn-cover-inner .custom-btn {
+	width: 100%;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	height: 60px;
+	background-color: transparent;
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	border: 2px solid #ffffff;
+	font-size: 22px;
+	line-height: 53px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.slider-btn-cover-inner .custom-btn:hover {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	color: #712C3F;
+}
+.slider-btn-cover-inner {
+	margin-bottom: 10px;
+}
+/* admission section */
+
+
+
+
+
+
+
+.admission-heading h1 {
+	font-size: 42px;
+	color: #497A7E;
+	font-family: 'AvenirNextLTProDemi';
+}
+.admission-heading p {
+	font-size: 18px;
+	line-height: 36px;
+}
+/* Smoking Policy Section */
+
+
+
+
+
+
+
+.smoking-sec {
+	background-image: url('../images/smoking-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 170px 0;
+}
+.smoking-heading {
+	padding: 0 150px;
+}
+.smoking-heading h1 {
+	font-size: 42px;
+	color: #497A7E;
+	font-family: 'AvenirNextLTProDemi';
+}
+.smoking-heading p {
+	font-size: 20px;
+	line-height: 50px;
+	padding: 0 60px;
+}
+/* patient information section */
+
+
+
+
+#labordelivery_page .patient-info-sec .box-text-area-green {
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
+}
+.patient-info-sec {
+	padding: 0;
+}
+.box-text-area {
+	background-color: #ffffff;
+	padding: 100px 2% 0 39%;
+	height: 430px;
+}
+.box-text-area-green {
+	padding: 60px 38% 60px 40px;
+	min-height: 430px;
+}
+.box-text-area h1 {
+	font-size: 42px;
+	color: #497A7E;
+}
+.box-text-area p {
+	line-height: 40px;
+	font-size: 20px;
+}
+.box-text-area-green h1 {
+	font-size: 42px;
+	color: #497A7E;
+}
+.box-text-area-green p {
+	line-height: 40px;
+	font-size: 20px;
+}
+.box-img-area {
+	height: 430px;
+	overflow: hidden;
+}
+.box-img-area2 {
+	height: 493px;
+	overflow: hidden;
+}
+.box-img-area img {
+	width: 100%;
+}
+.box-img-area2 img {
+	width: 100%;
+}
+.white-text {
+	color: #ffffff !important;
+}
+/*======================================
+
+
+
+
+
+
+
+ 12  - Our Doctors
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.innerheading-style-2 {
+	background-color: #712C3F;
+	padding: 90px 0px 40px;
+}
+.pageheading h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 48px;
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.pageheading {
+	width: 100%;
+	display: inline-block;
+}
+.pageheading > * {
+	display: inline-block;
+}
+.pageheading p {
+	font-size: 26px;
+	color: #ffffff;
+	line-height: 44px;
+	margin: -10px 0px 15px 0;
+}
+.ourdoctors-sec {
+	background-image: url('../images/hospital-building.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.doctor-img-cover {
+	width: 209px;
+	height: 281px;
+	margin: 0 auto;
+	position: relative;
+}
+.doctor-img-cover .doc-name {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+}
+.doctor-cover {
+	margin-bottom: 50px;
+}
+.doctor-img-cover a {
+	display: block;
+}
+.close {
+	font-size: 40px;
+	line-height: 0.6;
+}
+/* Reisdent Doctors Section */
+
+
+
+
+
+
+
+.residentdoctors-sect {
+	background-color: #414143;
+	color: #ffffff;
+}
+.r-doc-img img {
+	height: 280px;
+	width: 100%;
+}
+.doctor-img-cover img {
+	height: 280px;
+	width: 100%;
+}
+.resident-doctors-content h1 {
+	font-size: 48px;
+	margin-bottom: 60px;
+}
+.doctor-desc h3 {
+	font-size: 36px;
+	font-weight: 600;
+}
+.doctor-desc p {
+	font-size: 25px;
+	line-height: 40px;
+}
+.doctor-desc {
+	padding-top: 100px;
+	padding-left: 50px;
+}
+/* Dialog Slider */
+
+
+
+
+
+
+
+.modal-dialog {
+	margin: 310px auto;
+	width: 1000px;
+}
+.modal-body {
+	padding: 0px 10px 0px;
+}
+#myModal .carousel-inner > .item {
+	height: auto;
+	padding: 40px 45px;
+}
+#myModal .carousel-inner > .item h4 {
+	font-weight: bold;
+	font-size: 32px;
+}
+#myModal .carousel-inner > .item p {
+	word-wrap: break-word;
+	font-size: 25px;
+}
+#myModal .carousel-inner > .item img {
+	width: 100%;
+}
+.modal-content {
+	box-shadow: none;
+	border: medium none;
+	border-radius: 0;
+	padding: 10px 40px 30px;
+}
+#babiesModal .modal-content {
+	background-color: #712c3f;
+	border: 12px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+}
+/*======================================
+
+
+
+
+
+
+
+ 13  - Nursing Staff Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.nursing-staff-sec {
+	background-image: url('../images/nursing-staff.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.nursing-staff-content h1 {
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #497a7b;
+}
+.nursing-staff-content p {
+	font-size: 24px;
+	line-height: 36px;
+}
+/* Director Contact Section */
+
+
+
+
+
+
+
+.director-contact-sec {
+	background-color: #f8f4e4;
+	padding: 60px 0;
+}
+.director-contact p {
+	font-size: 28px;
+	text-align: center;
+	line-height: 42px;
+}
+.green-text {
+	color: #487a7b !important;
+}
+.inner-header {
+	background-color: #ffffff;
+}
+/*======================================
+
+
+
+
+
+
+
+ 14  - Charity Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+.charity-sec {
+	background-color: #f8f4e5;
+}
+.charity-content {
+	height: 400px;
+}
+.charity-content h1 {
+	color: #487a7b;
+	margin: 20px 0;
+	font-size: 48px;
+}
+.charity-content p {
+	margin: 20px 0;
+	font-size: 18px;
+	line-height: 36px;
+}
+.charity-btn-cover {
+	height: 100%;
+	padding: 110px 60px;
+}
+.charity-btn {
+	font-size: 30px;
+	height: auto;
+	padding: 25px 20px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 15  - Education Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+#banner .heading_education {
+	background-color: #702c3f;
+	bottom: -16%;
+	color: #fff;
+	font-size: 48px;
+	line-height: 48px;
+	left: 0;
+	margin: auto;
+	padding-bottom: 70px;
+	padding-top: 70px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.education_page #section_2 {
+	background: #f8f4e4 none repeat scroll 0 0;
+	padding-top: 0px;
+}
+.education_page #section_3 {
+	background-color: #414143;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+.education_page #section_1 {
+	background: #f8f4e4 none repeat scroll 0 0;
+	padding-top: 60px;
+}
+.education_page #section_2 h2 {
+	color: #497a7c;
+}
+.education_page #section_3 p {
+	font-size: 30px;
+}
+.green-btn {
+	background-color: #497a7c;
+	color: #ffffff;
+	font-size: 22px;
+	height: 60px;
+	border: 0;
+	line-height: 44px;
+	transition-duration: 0.3s;
+	width: 230px;
+	margin-top: 20px;
+}
+.green-btn:hover {
+	background-color: #702c3f;
+	color: #ffffff;
+}
+.grey-box .green-btn {
+	margin-top: 65px;
+}
+.white-box2 .grey-btn {
+	margin-top: 55px;
+}
+.grey-btn {
+	background-color: #eee7e8;
+	color: #497a7c;
+	font-size: 22px;
+	height: 60px;
+	border: 0;
+	line-height: 44px;
+	transition-duration: 0.3s;
+	width: 230px;
+	margin-top: 20px;
+}
+.grey-btn:hover {
+	background-color: #497a7c;
+	color: #ffffff;
+}
+.white-box {
+	background-color: #ffffff;
+	height: 500px;
+	padding: 100px 15px;
+}
+.white-box2 {
+	background-color: #ffffff;
+	height: 500px;
+	padding: 50px 15px;
+}
+.grey-box {
+	background-color: #eee7e8;
+	height: 500px;
+	padding: 60px 15px 100px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 16  - Radiology Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+.raiology_page .patient-info-sec .box-text-area {
+	padding-left: 38%;
+	padding-right: 2%;
+	padding-top: 70px;
+}
+.adj-width-pageheading {
+	width: auto !important;
+}
+.padding-radiology {
+	padding: 80px 40px 0 340px !important;
+}
+.padding-radiology1 {
+	padding: 60px 340px 60px 40px !important;
+}
+.raiology_page #section_2 p {
+	color: #414143;
+	padding: 0 100px;
+}
+.raiology_page #section_2 h2 {
+	color: #497a7c;
+}
+.raiology_page #section_4 {
+	background-color: #eee7e8;
+	padding-bottom: 21px;
+	padding-top: 21px;
+}
+.raiology_page #section_5 {
+	background-image: url("../images/radiology-graphic.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 555px;
+}
+.raiology_page #section_0 {
+	background-color: #414143;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 30px;
+	padding-top: 60px;
+	height: 190px;
+}
+.raiology_page #section_0 p {
+	font-size: 24px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 17  - Labor & Delivery Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+
+
+#labordelivery_page .patient-info-sec .box-text-area.padding-labor {
+}
+.padding-labor {
+	padding: 45px 2% 45px 38% !important;
+}
+.padding-labor1 {
+	padding: 100px 150px 0 80px !important;
+}
+/*======================================
+
+
+
+
+
+
+
+ 18  - Laboratory Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.box-img-area-lab {
+	height: 424px;
+	overflow: hidden;
+}
+.box-img-area-lab img {
+	width: 100%;
+}
+/*======================================
+
+
+
+
+
+
+
+ 19  - Physical Therapy Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+.pageheading-physical {
+	width: auto !important;
+}
+.therapy-text {
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	padding-right: 4% !important;
+	padding-top: 70px !important;
+	padding-bottom: 39px !important;
+}
+/*======================================
+
+
+
+
+
+
+
+ 19  - Nursing Services Page
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+.nursing-text {
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	padding-right: 2% !important;
+	padding-top: 75px !important;
+}
+.nursing-services-sec {
+	background-image: url("../images/nursing-bg.jpg") !important;
+	padding-bottom: 130px !important;
+	padding-top: 130px !important;
+}
+#diabetes_page #section_3 .row {
+	height: 424px;
+	margin: 0px;
+}
+.nursing-services #section_3 .row {
+	height: 311px !important;
+	margin: 0;
+}
+.nursing-services #section_3 {
+	padding: 0 !important;
+}
+.nursing-services #section_3 .img {
+	background-size: cover;
+	height: 100%;
+}
+.nursing-services #section_3 .text {
+	line-height: 35px;
+	padding-left: 19%;
+	padding-right: 2%;
+	height: 100%;
+}
+/*======================================
+
+
+
+
+
+
+
+ 20  - Medical specialities
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.medical-spec h1 {
+	color: #497a7b;
+	font-size: 38px;
+	text-transform: none;
+}
+.medical-spec p {
+	font-size: 19px;
+	line-height: 36px;
+}
+.thumb img {
+	width: 100%;
+}
+.carousel-inner > .item {
+	height: auto;
+}
+.p0 {
+	padding: 0
+}
+.tab-content {
+	display: none;
+}
+.tab-content.active[class] {
+	display: block !important;
+}
+.tab-content .tab-items[class] {
+	float: left !important;
+	width: 63%;
+}
+html.flex .tab-content .tab-items[class] {
+	width: 80%;
+}
+.tab-content ul li {
+	text-align: left
+}
+.tab-content ul li p {
+	text-align: justify
+}
+.tab-content .tab-nav[class] {
+	float: left !important;
+	min-height: 100px !important;
+	min-width: 50px !important;
+}
+.tab-content .tab-nav[class] {
+	float: left !important;
+	height: auto !important;
+	margin: 10% 0 !important;
+	position: relative !important;
+	width: 10% !important;
+}
+.slider-footers[class] {
+	background-color: #a0a0a0 !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+.slider-footers[class] {
+	background-color: #a0a0a0 !important;
+	font-size: 20px !important;
+	padding: 18px !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+.slider-footers[class] li {
+	text-align: inherit
+}
+.slider-footer-container[class] {
+	width: 100% !important;
+	height: 65px !important;
+	margin-top: 2em !important;
+}
+.slider-footers[class] li:not(.active) {
+	display: none !important
+}
+.slider-footers[class] li {
+	list-style: none;
+	word-break: break-all;
+}
+.slider-footers[class] li select {
+	color: #702c3f;
+	margin-bottom: 0 !important
+}
+/*======================================
+
+
+
+
+
+
+
+ 21  - Public Events
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+
+
+
+
+.charity-sec {
+	padding: 60px 0;
+}
+.pageheading-events {
+	width: 850px !important;
+}
+.events-content h1 {
+	font-size: 48px;
+	color: #487a7b;
+	padding-bottom: 30px;
+}
+.public_3 {
+	background-color: #414143;
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+.public_3 p {
+	font-size: 30px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 22  - Surgery
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.surgery-text {
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	padding-right: 2% !important;
+	height: 700px !important;
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+	padding-left: 19% !important;
+}
+.surgery-text p {
+	padding-bottom: 50px;
+	margin-top: 15px !important;
+}
+.surgery-img {
+	height: 748px !important;
+}
+.surgery-sec-3 {
+	height: 748px;
+	overflow: visible !important;
+	background-color: #ffffff !important;
+}
+.surgery-heading {
+	padding: 0 50px !important;
+}
+.pageheadingSurgery {
+	width: 800px !important;
+}
+.pageheadingSurgery h1 {
+	width: 230px;
+}
+/*======================================
+
+
+
+
+
+
+
+ 23  - Medical Records
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+.pageheadingDiabetes h1 {
+	width: 500px;
+}
+#section_download {
+	background-color: #487a7b;
+	color: #ffffff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 0px;
+	height: 330px;
+}
+#section_download .custom-btn {
+	background-color: #487a7b;
+	border: 3px solid #ffffff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 26px;
+	height: 75px;
+	line-height: 56px;
+	margin-bottom: 20px;
+	transition-duration: 0.3s;
+	width: 100%;
+	box-shadow: 0 1px 5px #666;
+	margin-left: 30px;
+}
+#section_download .custom-btn:hover {
+	background-color: #702c3f;
+}
+#section_download p {
+	padding: 0 170px;
+}
+#section_scheduale {
+	background-image: url('../images/scheduale-bg.jpg');
+	
+	background-position: 25% bottom;
+	background-repeat: no-repeat;
+	background-color: #f8f4e4;
+	padding-top: 150px;
+	padding-bottom: 80px;
+	margin-bottom: 20px;
+}
+.medical-img {
+	height: 649px !important;
+}
+#section_scheduale .custom-btn, #labordelivery_page .custom-btn {
+	background-color: #702c3f;
+	border: 3px solid #702c3f;
+	color: #fff;
+	font-size: 28px;
+	height: 100px;
+	line-height: 80px;
+	width: 80%;
+	margin-top: 90px;
+	margin-left: 12px;
+	padding: 6px 12px;
+}
+
+#labordelivery_page .custom-btn
+{
+	margin-top:0px;
+}
+#section_scheduale .custom-btn:hover, #labordelivery_page .custom-btn:hover {
+	background-color: #487a7b;
+	border: 3px solid #487a7b;
+}
+#section_scheduale p {
+	padding-right: 110px;
+}
+.paddingLR {
+	padding: 0 190px;
+}
+.medical-sec-3 {
+	height: 649px;
+}
+.medical-sec-3 h1 {
+	font-size: 26px;
+	width: 550px;
+}
+.medical-text {
+	padding-right: 9% !important;
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	height: 700px !important;
+	padding-bottom: 80px !important;
+	padding-top: 80px !important;
+}
+.medical-sec-3 .medical-list {
+	padding-left: 0px;
+}
+.medical-sec-3 .medical-list ul li {
+	line-height: 35px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	padding-left: 70px;
+}
+.triangle-left-inset::before {
+	background-color: transparent;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 35px;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	top: 51%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	width: 0;
+	border-left-width: 48px;
+	border-top-width: 30px;
+	border-bottom-width: 31px;
+}
+.clock-icon {
+	background-image: url('../images/clock-icon.png');
+	background-position: 2px 12px;
+	background-repeat: no-repeat;
+}
+.fax-icon {
+	background-image: url('../images/fax-machine-icon.png');
+	background-position: 2px 12px;
+	background-repeat: no-repeat;
+}
+.email-icon {
+	background-image: url('../images/at-the-rate.png');
+	background-position: 2px 12px;
+	background-repeat: no-repeat;
+}
+.btn-download {
+	background-color: transparent;
+	border: 3px solid #ffffff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 42px;
+	height: 90px;
+	line-height: 64px;
+	margin-top: 310px;
+}
+.btn-download:hover {
+	background-color: #487a7b;
+	border: 3px solid #ffffff;
+	color: #fff;
+}
+/*======================================
+
+
+
+
+
+
+
+25  - Nursery
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+.nursing-ward-bg {
+	background-image: url(../images/labor-room.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.nursing-ward-bg::before {
+	background-color: rgba(71, 71, 73, 0.6);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.stickers-list {
+	display: table;
+	float: none;
+	justify-content: center;
+	margin: 0 auto;
+}
+.stickers-list > li {
+	background-color: #fff;
+	background-image: url("../images/rugged-pattern.png");
+	display: inline-block;
+	list-style: outside none none;
+	margin: 10px 40px 8em;
+	min-width: 250px;
+	padding: 12px 12px 20px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+	width: 26%;
+}
+.stickers-list > li:nth-child(2n+1) {
+	transform: rotate(6deg);
+	-webkit-transform: rotate(6deg);
+}
+.stickers-list > li:nth-child(2n+2) {
+	top: 20px;
+	transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+}
+.stickers-list > li::before {
+	background-color: transparent;
+	background-image: url("../images/tape-strip.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	content: "";
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: -25px;
+	width: 100%;
+	z-index: 1;
+}
+.stickers-list li .caption {
+	color: #702c3f;
+	font-size: 25px;
+	margin-top: 16px;
+	padding-left: 1em;
+	text-align: left;
+}
+.nursing-ward-bg > * {
+	position: relative;
+	z-index: 1
+}
+.stickers-list li .image {
+	display: block;
+	height: 280px;
+	outline: medium none;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.stickers-list li .image img {
+	max-width: 280px;
+	min-height: 270px;
+}
+.stickers-list li .image::before {
+	background-color: transparent;
+	box-shadow: 0 0 64px 0 rgba(0, 0, 0, 0.6) inset;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+	transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	cursor: pointer;
+}
+.stickers-list li:hover .image::before {
+	box-shadow: 0 0 64px 0 rgba(0, 0, 0, 1) inset;
+}
+.popup-data > div {
+	background-color: #712c3f;
+	border: 12px solid;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	left: 50%;
+	padding: 12px 0;
+	position: fixed;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	width: 70%;
+	z-index: 350;
+	opacity: 0;
+	margin-top: -45px;
+}
+.popup-data > div:not(.open) {
+	display: none !important
+}
+.popup-data > div.open {
+	animation: fadeInTop 0.2s ease-in-out forwards;
+	-webkit-animation: fadeInTop 0.2s ease-in-out forwards;
+}
+ @keyframes fadeInTop {
+ from {
+ margin-top:-3%;
+}
+ to {
+ margin-top:0px;
+ opacity:1;
+}
+}
+ @-webkit-keyframes fadeInTop {
+ from {
+ margin-top:-3%;
+}
+ to {
+ margin-top:0px;
+ opacity:1;
+}
+}
+#popup-bg-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 300;
+}
+footer.footer {
+	background-color: #ede7e7;
+	padding-bottom: 14px;
+}
+#contact_page .btn-style-1 {
+	width: 100%;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	height: 62px;
+	background-color: #702c3f;
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	border: 2px solid #702c3f;
+	font-size: 26px;
+	line-height: 44px;
+	color: #fff;
+}
+#contact_page .btn-style-1:hover {
+	background-color: transparent;
+	border: 2px solid #702c3f;
+	color: #702c3f;
+}
+/*======================================
+
+
+
+
+
+
+
+26  - Health Fair
+
+
+
+
+
+
+
+=======================================*/
+.health-services #section_3 .row {
+	margin: 0;
+}
+.health-services #section_3 {
+	padding: 0 !important;
+}
+.health-services #section_3 .img {
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+.health-services #section_3 .text {
+	line-height: 35px;
+	padding-left: 19%;
+	padding-right: 2%;
+	height: 100%;
+}
+.health-services .test-sec-2 p {
+	font-size: 17.66px !important;
+	color: #414143;
+	line-height: 35px !important;
+	margin: auto;
+	max-width: 89%;
+	text-align: center;
+}
+.pageheading-health {
+	width: 72% !important;
+}
+.test-sec-2 p {
+	padding: 0 80px;
+}
+.health-text {
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	padding-right: 2% !important;
+	padding-left: 18.5% !important;
+	padding-top: 70px !important;
+}
+.health-text h2 {
+	color: #487a7b;
+	font-size: 36px;
+}
+.health-sec-3 .row {
+	height: 520px !important;
+}
+#section_contactHealth {
+	background-color: #487a7b;
+	color: #ffffff;
+}
+#health-sec-test {
+	padding: 0 !important;
+}
+#health-sec-test p {
+	padding: 0 150px;
+}
+#health-sec-test .row {
+	height: 684px !important;
+	margin: 0px !important;
+}
+.nursing-services #section_3 .img {
+	background-size: cover;
+	height: 100% !important;
+	background-position: bottom;
+}
+#health-sec-test .img {
+	background-size: cover;
+	height: 100%;
+}
+.test-text h2 {
+	color: #487a7b;
+	font-size: 36px;
+}
+.test-text {
+	background-color: #ffffff !important;
+	color: #414143 !important;
+	padding-left: 3% !important;
+	padding-right: 24% !important;
+	padding-top: 4.5% !important;
+	height: 100% !important;
+}
+.test-text .special-s-list {
+	padding-left: 0px;
+}
+.test-text .special-s-list ul li {
+	font-size: 20px;
+}
+.health_wray_page .test-text {
+	padding-right: 22% !important;
+}
+/*======================================
+
+Cardiac
+
+=======================================*/
+
+#cardic_dumbells {
+	float: left;
+	margin: -30px 0 -60px;
+}
+
+/*======================================
+
+
+
+
+
+
+
+27  - Bootstrap 3 Media Queries
+
+
+
+
+
+
+
+=======================================*/
+
+
+
+
+
+
+
+
+
+
+@media (max-width:2560px) {
+.nursing-services #section_3 .img {
+	background-position: center;
+}
+}
+
+@media all and (max-width: 1600px) {
+.padding-labor {
+	padding: 45px 2% 45px 25% !important;
+}
+.padding-labor1 {
+	padding: 80px 150px 0 80px !important;
+}
+.therapy-text {
+	padding-top: 40px !important;
+}
+.therapy-img {
+	height: 479px !important;
+}
+.padding-radiology {
+	padding: 80px 60px 0 160px !important;
+}
+.padding-radiology1 {
+	padding: 50px 200px 50px 40px !important;
+}
+.nursing-services #section_3 .text {
+	padding-left: 12.5%;
+}
+.raiology_page .patient-info-sec .box-text-area {
+	padding-left: 25%;
+}
+.medical-triangle {
+	margin-left: 655px;
+}
+.surgery-text {
+	padding: 80px 2% 80px 12.5% !important;
+}
+.health-text {
+	padding-left: 12% !important;
+	padding-bottom: 12% !important;
+}
+.laboratory_page #section_3 .row {
+	min-height: auto !important;
+}
+.box-text-area {
+	padding: 100px 2% 0 27%;
+}
+.box-text-area-green {
+	padding: 60px 27% 60px 40px;
+}
+.box-img-area2 img {
+	height: 100%;
+}
+.our-services-container {
+	margin-top: 170px;
+}
+}
+
+@media all and (max-width: 1400px) {
+.our-services-container {
+	margin-top: 130px;
+}
+.box-text-area {
+	padding: 100px 60px 0 110px;
+}
+.box-text-area-green {
+	padding: 60px 19% 60px 40px;
+}
+.box-img-area img {
+	height: 100%;
+}
+.padding-labor {
+	padding: 20px 60px 0 110px !important;
+}
+.padding-radiology1 {
+	padding: 50px 100px 50px 40px !important;
+}
+.nursing-services #section_3 .text {
+	padding-left: 7.5%;
+}
+.medical-triangle {
+	margin-left: 574px;
+}
+.surgery-text {
+	padding: 80px 2% 80px 7% !important;
+}
+.health-text {
+	padding-left: 7% !important;
+}
+.raiology_page .patient-info-sec .box-text-area {
+	padding-left: 14.5%;
+}
+}
+
+@media all and (max-width: 1280px) {
+.medical-sec-3 h1 {
+	width: 535px;
+}
+.container {
+	width: 1100px;
+}
+.navbar {
+	min-height: 111px;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 8px;
+}
+.test-sec-2 p {
+	padding: 0 20px;
+}
+.test-text {
+	padding-right: 11% !important;
+}
+.our-services-container {
+	margin-top: 110px;
+	padding: 25px 110px;
+}
+.modern-madecine-single {
+	padding: 30px 20px;
+}
+.main-modren-cover {
+	height: 360px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+}
+.footernav-cover .container {
+	width: 1200px;
+}
+.footernav-cover .text-right {
+	padding-right: 20px;
+}
+.copyright-cover .container {
+	width: 1200px;
+}
+.events-list li a {
+	font-size: 22px;
+}
+.special-s-heading {
+	padding: 0 85px;
+}
+.patient-info-para p {
+	padding: 0 130px;
+}
+.nursing-services #section_3 .text {
+	padding-left: 7%;
+}
+.raiology_page .patient-info-sec .box-text-area {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 14%;
+}
+.padding-radiology1 {
+	padding: 50px 100px 40px 40px !important;
+}
+.box-text-area {
+	min-height: 280px;
+}
+.padding-labor1 {
+	padding: 40px 100px 0 80px !important;
+}
+.white-box {
+	padding: 100px 15px;
+}
+.white-box2 {
+	padding: 50px 15px;
+}
+.grey-box {
+	padding: 70px 15px 100px;
+}
+.grey-box .green-btn {
+	margin-top: 20px;
+}
+.white-box2 .grey-btn {
+	margin-top: 20px;
+}
+.raiology_page .box-img-area {
+	height: 353px;
+}
+.raiology_page .box-text-area {
+	min-height: 353px;
+	padding: 60px 60px 0 60px;
+}
+.raiology_page .box-text-area-green {
+	height: auto;
+	min-height: 353px;
+}
+.raiology_page #section_5 {
+	background-size: contain;
+	height: 447px;
+}
+.padding-radiology {
+	padding: 60px 60px 0 100px !important;
+}
+.padding-labor {
+	padding: 35px 60px 35px 40px !important;
+}
+.lab-img {
+	height: 75% !important;
+}
+.lab-text {
+	height: 75% !important;
+}
+.lab-sec-3 {
+	min-height: 350px !important;
+}
+.therapy-text {
+	padding-top: 35px !important;
+	padding-bottom: 35px !important;
+}
+.nursing-text {
+	padding-top: 80px !important;
+}
+.medical-triangle {
+	margin-left: 525px;
+}
+.medical-text {
+	padding-top: 30px !important;
+}
+.medical-triangle {
+	margin-top: 260px;
+}
+.surgery-sec-3 .row {
+	height: auto !important;
+}
+.surgery-text {
+	padding: 50px 2% 30px 7% !important;
+}
+.box-img-area img {
+	height: 480px;
+}
+.box-text-area-green {
+	min-height: 280px;
+}
+}
+
+@media all and (max-width: 1024px) {
+.medical-sec-3 {
+	height: 755px;
+}
+.medical-img {
+	height: 755px !important;
+}
+.cboxPhoto {
+	height: auto !important;
+	width: 97% !important;
+	margin: 0 !important;
+}
+#cboxContent {
+	width: 97% !important;
+	height: auto !important;
+}
+#cboxLoadedContent {
+	background: #000 none repeat scroll 0 0 !important;
+}
+.career-opp-sec {
+	padding-bottom: 100px;
+}
+.health-sec-3 .row {
+	height: 600px !important;
+}
+.pageheading-health {
+	width: 78% !important;
+}
+.our-services-container {
+	margin-top: 70px;
+	padding: 20px 80px;
+}
+.main-modren-cover {
+	height: 410px;
+}
+.footernav-cover .container {
+	width: 100%;
+}
+.copyright-cover .container {
+	width: 100%;
+}
+.footer-nav-ul li a {
+	padding: 0 8px;
+}
+.contact-today-content-inner h1 {
+	font-size: 31px;
+}
+.contact-today-content-inner p {
+	font-size: 20px;
+}
+.events-and-classes h1 {
+	font-size: 31px;
+}
+.events-list li a {
+	font-size: 20px;
+}
+#primaery-navbar.sticky.navbar {
+	min-height: 94px;
+}
+.container {
+	width: 100%;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+}
+.copyright-text p, .designed-by-text p {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.footer-nav-ul li a {
+	padding: 0 9px;
+}
+.doctor-desc {
+	padding-top: 70px;
+}
+.innerheading-style-2 {
+	padding: 80px 25px 30px;
+}
+.pageheading {
+/*width: 75%;*/
+
+}
+.modal-dialog {
+	margin: 450px auto;
+}
+.patient-info-container {
+	margin-top: 70px;
+}
+.patient-info-para p {
+	padding: 0 100px;
+}
+.box-text-area {
+	padding: 90px 30px 0;
+	min-height: 250px;
+}
+.raiology_page .patient-info-sec .box-text-area {
+	padding-left: 6%;
+}
+.raiology_page .box-img-area {
+	height: auto !important;
+}
+.raiology_page .box-text-area-green {
+	height: auto !important;
+	min-height: 353px;
+}
+.patient-info-sec .box-text-area-green {
+	padding: 40px 20px 0;
+	min-height: 250px;
+	height: 460px;
+}
+.box-img-area2 {
+	height: 460px;
+}
+.box-img-area {
+	height: 450px;
+}
+.patient-info-sec .box-img-area {
+	height: 430px;
+}
+.box-img-area img {
+	height: 100%;
+}
+.smoking-heading p {
+	padding: 0;
+}
+.raiology_page #section_5 {
+	height: 358px;
+}
+.padding-radiology {
+	padding: 60px 30px 0 !important;
+}
+.padding-radiology1 {
+	padding: 40px 20px !important;
+}
+.padding-labor {
+	padding: 35px 20px 30px !important;
+}
+.padding-labor1 {
+	padding: 30px 50px 0 !important;
+}
+.lab-text {
+	padding-left: 3% !important;
+}
+#section_download p {
+	padding: 0 100px;
+}
+.paddingLR {
+	padding: 0 100px;
+}
+.btn-download {
+	margin-top: 350px;
+}
+.medical-text {
+	padding-top: 60px !important;
+}
+.medical-triangle {
+	margin-left: 420px;
+}
+.medical-sec-3 .btn-download {
+	width: 150%;
+}
+.medical-triangle {
+	margin-top: 280px;
+}
+.nursing-services #section_3 .img {
+	background-position: center;
+}
+#health-sec-test .img {
+	background-position: center;
+}
+.carousel-caption {
+	padding-left: 50px;
+}
+header.slider .carousel-caption {
+	width: 80% !important;
+}
+header.slider .carousel-caption .slider-btn-cover {
+	width: 80% !important;
+}
+.surgery-text {
+	padding: 50px 2% 19px 2.5% !important;
+}
+.nursing-text {
+	padding-top: 70px !important;
+}
+.medical-sec-3 h1 {
+	width: 100%;
+}
+}
+
+@media all and (max-width: 980px) {
+.flexbox {
+	display: block !important
+}
+.doc-img-adj {
+	margin-top: 30px;
+}
+.container {
+	width: 100%;
+}
+.copyright-text p, .designed-by-text p {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.footer-nav-ul li a {
+	padding: 0 9px;
+}
+.test-sec-2 p {
+	padding: 0;
+}
+.health-sec-3 .row {
+	height: auto !important;
+}
+.health-sec-3 .img {
+	height: 500px !important;
+}
+#health-sec-test .img {
+	height: 516px !important;
+}
+#health-sec-test .row {
+	height: auto !important;
+}
+.health-text {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+.test-text {
+	padding-bottom: 50px;
+	padding-left: 50px !important;
+}
+.pageheading-health {
+	width: 85% !important;
+}
+.test-sec-2 p {
+	padding: 0;
+}
+.pt70 {
+	padding-top: 70px !important;
+}
+.special-s-heading {
+	padding: 0 40px;
+}
+.career-opp-sec {
+	padding-bottom: 60px;
+}
+.navbar {
+	min-height: 81px;
+}
+.nav > li > a {
+	padding-top: 20px !important;
+}
+#primaery-navbar.sticky.navbar {
+	min-height: 59px;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 20px 8px;
+}
+.sg-sec {
+	adding: 80px 0;
+}
+.career-opp-content h1 {
+	margin: 50px 0 50px;
+	text-align: center;
+}
+.career-opp-content .pull-left {
+	padding-left: 15px;
+}
+.career-opp-content .pull-right {
+	float: none !important;
+}
+.career-opp-content p {
+	margin: 10px 5px;
+}
+.col-sm-offset-3 {
+	margin-left: 25%;
+}
+.copyright-text p, .designed-by-text p {
+	text-align: center;
+}
+.social-icon-cover {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.footer-nav-ul li a {
+	padding: 20px 29px;
+}
+.contact-today-content-inner {
+	text-align: center;
+}
+.contact-today-content-inner h1 {
+	font-size: 40px;
+}
+.contact-today-content-inner .ourmission-btn-cover {
+	margin: 0 auto;
+}
+.contact-today-sec p.bottom-line-text {
+	padding-top: 40px;
+}
+.events-and-classes h1 {
+	text-align: center;
+	padding-top: 60px;
+	font-size: 40px;
+}
+.events-list li {
+	margin: 0 auto;
+	width: 500px;
+}
+.r-doc-img {
+	height: 281px;
+	margin: 0 auto;
+	position: relative;
+	width: 209px;
+}
+.r-doc-img img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 280px;
+}
+.doctor-desc h3 {
+	text-align: center;
+}
+.doctor-desc p {
+	text-align: center;
+}
+.modal-dialog {
+	margin: 450px auto 0;
+}
+#myModal .carousel-inner > .item {
+	height: 425px;
+}
+#myModal .carousel-inner > .item img {
+	height: 280px;
+	width: 209px;
+	display: block;
+	margin: 0 auto;
+}
+.box-text-area {
+	min-height: 250px;
+	padding: 60px 30px 0;
+	height: 300px;
+}
+.box-text-area-green {
+	padding: 50px 20px 0;
+	min-height: 360px;
+}
+.patient-info-sec .box-text-area-green {
+	height: 380px;
+	padding: 60px 20px 0;
+}
+.raiology_page .patient-info-sec .box-text-area {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.surgery-text {
+	padding: 50px 3% 19px !important;
+}
+.charity-sec {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.charity-content {
+	height: 600px;
+}
+.charity-content h1 {
+	text-align: center;
+}
+.charity-btn-cover {
+	margin: 0 auto;
+	width: 50%;
+	padding: 50px 60px;
+}
+.white-box {
+	height: 561px;
+}
+.grey-box {
+	height: 561px;
+}
+.white-box2 {
+	height: 561px;
+}
+.grey-box .green-btn {
+	margin-top: 55px;
+}
+.white-box2 .grey-btn {
+	margin-top: 55px;
+}
+.education_page #section_3 p {
+	font-size: 28px;
+}
+.raiology_page .box-img-area {
+	height: 380px;
+}
+.raiology_page .box-text-area-green {
+	padding: 30px 20px 0;
+	min-height: 350px;
+}
+.raiology_page .box-text-area {
+	height: 280px !important;
+	min-height: 280px !important;
+	padding: 60px 30px 0;
+}
+.raiology_page #section_5 {
+	background-size: cover;
+	height: 340px;
+}
+.padding-radiology {
+	height: 260px !important;
+}
+.padding-radiology1 {
+	padding: 60px 30px 0 !important;
+	height: 300px !important;
+}
+.lab-sec-3 {
+	height: 100% !important;
+}
+.lab-img {
+	height: 500px !important;
+}
+.lab-text {
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
+}
+.therapy-text {
+	padding-top: 50px !important;
+}
+.nursing-text {
+	padding-top: 60px !important;
+}
+.surgery-sec-3 {
+	height: auto;
+}
+.surgery-img {
+	height: 700px !important;
+	width: 100%;
+}
+.pageheadingSurgery {
+	width: auto !important;
+}
+#section_download .custom-btn {
+	width: 40%;
+}
+#section_scheduale .custom-btn {
+	width: 90%;
+}
+#section_scheduale .pull-right {
+	float: none !important;
+}
+.text-center-md {
+	text-align: center;
+}
+#section_scheduale {
+	background-position: 50% center;
+}
+#section_scheduale p {
+	padding-right: 0px;
+}
+.medical-text {
+	padding-top: 90px !important;
+}
+.medical-text p {
+	margin: 15px 0 !important;
+}
+.medical-sec-3 {
+	height: auto;
+}
+.medical-sec-3 .btn-download {
+	width: 50%;
+}
+.medical-triangle {
+	display: none;
+}
+.padding-labor {
+	padding: 50px 20px 35px !important;
+	min-height: 280px !important;
+	height: auto !important;
+}
+.padding-labor1 {
+	min-height: 250px !important;
+	padding: 50px 20px 0 !important;
+}
+.nursing-services #section_3 .img {
+	height: 400px !important;
+}
+.nursing-services #section_3 .row {
+	height: auto !important;
+}
+.nursing-services #section_3 .text {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.public_3 p {
+	font-size: 28px;
+}
+.patient-info-para p {
+	padding: 0 80px;
+}
+.doctor-desc {
+	padding-left: 0px;
+}
+#labordelivery_page #section_4 .box-text-area {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+}
+
+@media (max-width: 916px) {
+.navbar-default .navbar-nav > li > a {
+	font-size: 11px;
+}
+}
+
+@media(max-width: 900px) {
+#primaery-navbar .navigation-cover {
+	width: 77%;
+}
+#primaery-navbar .navbar-branding-cover {
+	width: 23%;
+}
+.grey-box .green-btn {
+	margin-top: 90px;
+}
+.pageheading-events {
+	width: auto !important;
+}
+}
+
+@media (max-width: 834px) {
+#nursery_page #section_2 .col-lg-5 input {
+	margin-left: 0px !important;
+}
+#primaery-navbar .navbar-branding-cover {
+	width: 20%;
+}
+#primaery-navbar .navigation-cover {
+	width: 80%;
+}
+.pageheading-health {
+	width: 100% !important;
+}
+.test-sec-2 p {
+	padding-top: 20px;
+}
+.health-services #section_2 {
+	padding: 60px 0 !important;
+}
+}
+
+@media (max-width: 803px) {
+#primaery-navbar .navbar-branding-cover {
+	width: 19%;
+}
+#primaery-navbar .navigation-cover {
+	width: 81%;
+}
+header.slider .carousel-caption .slider-btn-cover {
+	width: 100% !important;
+}
+.special-s-heading {
+	padding: 0 60px;
+}
+.patient-info-para p {
+	padding: 0 10px;
+}
+}
+
+@media(max-width: 800px) {
+.header::after {
+	height: 0px;
+}
+#cboxContent {
+	width: 77.2% !important;
+}
+.cboxPhoto {
+	width: 77% !important;
+}
+.doc-img-adj {
+	margin-top: 70px;
+}
+.navbar-branding-cover {
+	text-align: center;
+	width: 100%;
+}
+.navigation-cover {
+	border-bottom: 1px solid #702C3F;
+	border-top: 1px solid #702C3F;
+	width: 100%;
+}
+.nav > li > a {
+	line-height: 37px !important;
+	padding-top: 8px !important;
+}
+.navbar-default .navbar-nav > li > a {
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 15.55px;
+}
+.carousel-caption {
+	top: 30%;
+	padding-left: 30px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 703px;
+	line-height: 1;
+	object-fit: cover;
+	object-position: center top;
+	width: 100%;
+}
+.carousel-caption h2 {
+	color: #702c3f;
+	font-size: 38px;
+	line-height: 44px;
+	text-shadow: none;
+}
+section {
+	padding: 60px 0;
+}
+.career-opp-sec {
+	padding-bottom: 60px;
+}
+.footer-nav-ul li a {
+	padding: 20px 9px;
+}
+.social-icon-cover {
+	margin: 0 auto;
+	float: none;
+}
+.copyright-text, .designed-by-text {
+	text-align: center;
+}
+#primaery-navbar.sticky {
+	position: relative;
+}
+.carousel-caption {
+	height: auto;
+	left: 0;
+	text-align: left;
+	top: -480px;
+	width: 100%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 100%;
+	line-height: 1;
+	object-fit: none;
+	object-position: left top;
+	width: auto;
+}
+.main-modren-cover {
+	height: 450px;
+}
+.modern-madecine-single h1 {
+	font-size: 32px;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 0px 9.37px;
+	font-size: 14px;
+}
+.modal-dialog {
+	margin: 250px auto;
+	width: 750px;
+}
+#myModal .carousel-inner > .item {
+	height: 445px;
+}
+.smoking-heading {
+	padding: 0 100px;
+}
+.charity-btn-cover {
+	width: 70%;
+}
+.pageheading {
+	width: 85%;
+}
+.adj-width-pageheading {
+	width: auto;
+}
+.grey-box .green-btn {
+	margin-top: 55px;
+}
+.white-box2 .grey-btn {
+	margin-top: 20px;
+}
+.raiology_page .box-text-area-green {
+	padding: 10px 20px 0;
+}
+.raiology_page .box-img-area {
+	height: 460px;
+}
+.raiology_page .box-text-area {
+	padding: 50px 30px 0;
+	height: auto !important;
+	min-height: auto !important;
+}
+.padding-radiology1 {
+	padding: 60px 30px !important;
+}
+.padding-radiology {
+	height: 340px !important;
+}
+.acr-img {
+	width: 80%;
+}
+.raiology_page #section_0 p {
+	font-size: 18px;
+}
+.raiology_page #section_0 {
+	height: 130px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+.adj-width-pageheadingLabor {
+	width: 100% !important;
+}
+.lab-img {
+	height: 400px !important;
+}
+#section_download p {
+	padding: 0 20px;
+}
+.paddingLR {
+	padding: 0 20px;
+}
+.paddingL-md {
+	padding-left: 25px !important;
+}
+.padding-labor {
+	min-height: 330px !important;
+}
+.padding-labor1 {
+	min-height: 170px !important;
+}
+.nursing-services #section_2 {
+	padding: 60px 0 !important;
+}
+.box-text-area {
+	padding: 70px 30px 0;
+	min-height: 360px;
+}
+.box-text-area-green {
+	padding: 40px 20px 0;
+}
+}
+
+@media all and (max-width: 768px) {
+.nav > li > a {
+	line-height: 32px !important;
+	padding: 5px 22px !important;
+}
+.nav.navbar-nav {
+	background-color: #ffffff;
+	float: left !important;
+	margin-left: 0 !important;
+	margin-top: 0;
+	width: 100%;
+}
+.navbar-toggle {
+	width: 100%;
+	margin: 0;
+	font-size: 20px;
+}
+.navbar-branding-cover {
+	padding: 0;
+}
+#primaery-navbar.sticky {
+	position: relative;
+}
+.navbar-default .navbar-nav > li > a {
+	width: 100%;
+}
+.navbar-default .navbar-toggle {
+	background-color: #702C3F;
+	border: medium none;
+	border-radius: 0;
+	color: #ffffff;
+	font-size: 25px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #702C3F;
+	color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu {
+	/*	background-color: rgba(0, 0, 0, 0.2);
+*/	border: medium none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	margin-top: 0;
+	position: relative;
+	width: 100%;
+	border-radius: 0;
+	float: none;
+	background-color: #ccc;
+}
+.doc-img-adj {
+	margin-top: 90px;
+}
+#primaery-navbar .navbar-branding-cover {
+	width: 100%;
+}
+#primaery-navbar .navigation-cover {
+	width: 100%;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 0px 7.60px;
+}
+.main-modren-cover {
+	height: 500px;
+}
+.modern-madecine-single h1 {
+	width: 290px;
+}
+.footernav-cover .col-md-9 {
+	padding-right: 0px;
+}
+#section_download {
+	margin-top: 0px;
+}
+.box-text-area-green {
+	min-height: 360px;
+}
+.box-img-area img {
+	height: auto;
+}
+.our-services-container {
+	margin-top: -150px;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	margin-left: 12% !important;
+}
+.carousel-caption {
+	padding-left: 18% !important;
+	padding-right: 0 !important;
+}
+.carousel-caption h2 {
+	font-size: 34px;
+	line-height: 36px;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	opacity: 1 !important;
+}
+p.caption {
+	padding: 6px;
+	text-shadow: none;
+	width: 100%;
+}
+.carousel-caption {
+	height: auto;
+	left: 4%;
+	text-align: left;
+	top: 22%;
+	width: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.slider-btn-cover .custonabout-single, .slider-btn-cover .custoncontact-single {
+	margin-bottom: 10px;
+	padding: 0;
+	width: 100%;
+}
+.carousel-caption {
+	width: 450px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 703px;
+	line-height: 1;
+	object-fit: none;
+	object-position: left top;
+	width: 100%;
+}
+.carousel-caption {
+	height: auto;
+	left: 0;
+	text-align: left;
+	top: -630px;
+	width: 100%;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	height: 100% !important;
+	bottom: 0 !important;
+	bottom: 50px !important;
+}
+}
+
+@media all and (max-width: 760px) {
+.col-sm-offset-3 {
+	margin-left: 0;
+}
+}
+
+@media (max-width:753px) {
+.nursing-services #section_3 .row {
+	display: block;
+	;
+}
+}
+
+@media all and (max-width: 667px) {
+.box-text-area-green {
+	min-height: 210px;
+}
+}
+
+@media all and (max-width: 640px) {
+#cboxContent {
+	width: 62.3% !important;
+}
+.cboxPhoto {
+	width: 62% !important;
+}
+.health-sec-3 .img {
+	height: 390px !important;
+	background-position: center center;
+}
+.doc-img-adj {
+	margin-top: 0;
+}
+#insurance_page #section_2 .col-centered {
+	margin-bottom: 10px;
+}
+#nursery_page #section_2 .col-lg-5 input {
+	margin-left: 12px !important;
+}
+.footer-nav-ul li a {
+	padding: 10px 9px;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	margin-left: 12% !important;
+}
+.carousel-caption {
+	padding-left: 18% !important;
+	padding-right: 0 !important;
+}
+.sec-heading-cover h1 {
+	font-size: 30px;
+}
+.our-services-container {
+	margin-top: 50px;
+	padding: 20px 10px;
+}
+#section_scheduale h2 {
+	line-height: 56px !important;
+}
+.carousel-caption h2 {
+	font-size: 24px;
+	line-height: 24px;
+}
+.contact-today-sec {
+	padding-bottom: 120px;
+}
+.medical-img {
+	height: 500px !important;
+	width: 100% !important;
+}
+.medical-img .btn-download {
+	margin-top: 42%;
+}
+/*.carousel-control.left, .carousel-control.right {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+}*/
+
+
+
+
+
+.health-text h2 {
+	text-align: center;
+}
+.health-text p {
+	padding: 0 15px;
+	text-align: center;
+}
+p.caption {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 6px;
+	text-shadow: none;
+	width: 100%;
+}
+.carousel-caption {
+	height: auto;
+	left: 4%;
+	text-align: left;
+	top: 22%;
+	width: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.slider-btn-cover .custonabout-single, .slider-btn-cover .custoncontact-single {
+	margin-bottom: 10px;
+	padding: 0;
+}
+.modern-medicine-sec {
+	padding-bottom: 0;
+	padding-top: 40px !important;
+}
+.ourmission-content p {
+	font-size: 18px;
+	line-height: 24px;
+}
+.career-opp-content h1 {
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.career-opp-sec {
+	padding: 60px 0;
+}
+.special-s-heading {
+	padding: 0 15px;
+}
+.main-modren-cover {
+	border-right: none;
+}
+section {
+	padding: 60px 0;
+}
+.patient-info-sec .box-img-area {
+	height: auto;
+}
+.patient-info-sec .box-text-area-green {
+	height: auto;
+	padding: 60px 20px;
+}
+.box-img-area2 img {
+	height: auto;
+}
+.box-img-area2 {
+	height: auto;
+}
+.opportunity-img-cover {
+	margin-bottom: 50px;
+}
+.ourmission-heading h1, .career-opp-content h1, .contact-today-content h1 {
+	font-size: 40px;
+}
+.footer-nav-ul li a {
+	line-height: 42px;
+}
+.footer-nav-ul li {
+	display: block;
+}
+.social-icon-cover {
+	float: none;
+	margin: 0 auto;
+}
+.social-media-cover {
+	border-top: 1px solid rgba(0,0,0,.3);
+	padding-top: 20px;
+}
+.copyright-text p, .designed-by-text p {
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.designed-by-text p {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(0,0,0,.3);
+}
+.carousel-caption {
+	width: 450px;
+}
+.modern-service-cover {
+	margin-top: 20px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	height: 703px;
+	line-height: 1;
+	object-fit: none;
+	object-position: left top;
+	width: 100%;
+}
+.carousel-caption {
+	height: auto;
+	left: 0;
+	text-align: left;
+	top: -630px;
+	width: 100%;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	height: 100% !important;
+	bottom: 0 !important;
+	bottom: 50px !important;
+}
+.modern-madecine-single h1 {
+	font-size: 36px;
+	width: auto;
+}
+.main-modren-cover {
+	height: auto;
+	border-bottom: none;
+}
+.modern-medicine-sec {
+	padding-bottom: 40px;
+}
+.footernav-cover .text-right {
+	padding-right: 20px;
+}
+.modal-dialog {
+	margin: 150px auto;
+	width: 540px;
+	max-width: 98%;
+}
+#myModal .carousel-inner > .item {
+	height: 100%;
+}
+.smoking-heading {
+	padding: 0 40px;
+}
+.patient-info-container {
+	margin-top: 40px;
+}
+.box-img-area img {
+	height: auto !important;
+	width: 100%;
+}
+.charity-btn-cover {
+	width: 100%;
+}
+.charity-content {
+	height: 650px;
+}
+#banner .heading_education {
+	font-size: 43px;
+}
+.white-box {
+	height: 480px;
+}
+.grey-box {
+	height: 480px;
+}
+.white-box2 {
+	height: 480px;
+	padding: 80px 15px;
+}
+.raiology_page #section_2 p {
+	color: #414143;
+	padding: 0 50px;
+}
+.raiology_page .box-text-area-green {
+	min-height: 330px;
+	padding: 30px 20px 0;
+}
+.raiology_page .box-text-area {
+	min-height: 320px;
+	padding: 30px 30px 0;
+}
+.raiology_page .box-img-area {
+	height: 360px;
+}
+.raiology_page #section_0 {
+	height: 250px;
+	padding-bottom: 34px;
+	padding-top: 30px;
+}
+.raiology_page #section_0 p {
+	font-size: 18px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.padding-radiology {
+	height: 390px !important;
+}
+.raiology_page .box-text-area-green {
+	height: 490px !important;
+}
+.acr-img {
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+}
+.paddingLR {
+	padding: 0;
+}
+#section_download p {
+	padding: 0 15px;
+}
+#section_download {
+	height: 360px;
+}
+#section_download .custom-btn {
+	width: 100%;
+}
+#section_scheduale .custom-btn {
+	width: 100%;
+}
+.medical-text {
+	padding-top: 70px !important;
+}
+.medical-sec-3 .btn-download {
+	width: 100%;
+}
+.padding-labor {
+	min-height: 220px !important;
+}
+.padding-labor1 {
+	min-height: 350px !important;
+}
+.raiology_page .box-img-area {
+	height: auto;
+}
+.pageheading-events h1 {
+	font-size: 40px;
+}
+.box-text-area {
+	min-height: 380px;
+}
+.box-text-area-green {
+	min-height: 220px;
+}
+#section_scheduale .col-xs-7 {
+	width: 100%;
+}
+#section_scheduale .col-xs-5 {
+	width: 100%;
+}
+.modal-content {
+	padding: 10px 0px 30px;
+}
+.text-center-sm {
+	text-align: center;
+	padding-bottom: 80px;
+}
+#labordelivery_page .patient-info-sec .box-text-area-green {
+	height: auto !important;
+}
+.about_page #section_5 .footer .custom-btn-border {
+	padding: 11px 110px;
+}
+}
+
+@media (max-width: 600px) {
+#cboxContent {
+	width: 60.4% !important;
+}
+.cboxPhoto {
+	width: 60% !important;
+}
+}
+
+@media (max-width: 560px) {
+#cboxContent {
+	width: 55.5% !important;
+}
+.cboxPhoto {
+	width: 55% !important;
+}
+#health-sec-test .img {
+	height: 480px !important;
+}
+.about_page #section_5 .footer .custom-btn-border {
+	padding: 11px 125px;
+}
+.contact-today-sec p.bottom-line-text {
+	height: auto;
+}
+.patient-info-para p {
+	padding: 0 40px;
+}
+.box-img-area {
+	height: 317px;
+}
+.box-text-area {
+	padding: 40px 30px 0;
+}
+.box-text-area-green {
+	padding: 55px 20px 55px;
+	min-height: 280px;
+}
+#banner .heading_education {
+	font-size: 40px;
+}
+.raiology_page .box-img-area {
+	height: 310px;
+}
+.special-service-sec {
+	background-size: 100% auto;
+}
+.surgery-heading {
+	padding: 0 20px !important;
+}
+.padding-labor1 {
+	min-height: 200px !important;
+}
+.medical-sec-3 h1 {
+	width: 100%;
+}
+#section_scheduale .custom-btn {
+	font-size: 22px;
+}
+.health_wray_page #section_scheduale .custom-btn {
+	font-size: 28px;
+}
+.padding-radiology1 {
+	height: 520px !important;
+}
+.padding-labor {
+	min-height: 220px !important;
+}
+.test-text h2 {
+	text-align: center;
+}
+}
+
+@media (max-width: 480px) {
+#cboxContent {
+	width: 47.6% !important;
+}
+.cboxPhoto {
+	width: 47% !important;
+}
+.about_page #section_5 .footer .btn {
+	font-size: 20px !important;
+}
+.about_page #section_5 .footer .custom-btn-border {
+	padding: 11px 105px;
+}
+.box-img-area {
+	height: 285px;
+}
+.box-img-area img {
+	height: 100%;
+}
+.box-text-area {
+	height: auto;
+}
+.smoking-heading {
+	padding: 0px;
+}
+.our-serivces-headig h1 {
+	font-size: 32px;
+}
+.patient-info-container {
+	padding: 20px 30px;
+}
+.carousel-control {
+	width: 8%;
+}
+header.slider .carousel-caption {
+	width: 80% !important;
+}
+.our-services-container {
+	margin-top: 25px;
+	padding: 10px;
+}
+.special-s-heading {
+	padding: 0;
+}
+.special-s-list {
+	padding-left: 15px;
+}
+.more-events {
+	padding-right: 100px;
+}
+.modal-dialog {
+	width: 400px;
+}
+.patient-info-container {
+	margin-top: 20px;
+}
+.patient-info-para p {
+	padding: 0;
+}
+.box-text-area-green {
+	min-height: 250px;
+}
+.box-text-area {
+	min-height: 380px;
+}
+.pageheading {
+	width: 100%;
+}
+.adj-width-pageheading {
+	width: auto;
+}
+.pageheading h1 {
+	font-size: 30px;
+}
+.pageheading p {
+	font-size: 22px;
+}
+.charity-content {
+	height: 700px;
+}
+.charity-btn-cover {
+	padding: 50px 20px;
+}
+#banner .heading_education {
+	font-size: 30px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.education_page #section_2 h2 {
+	color: #497a7c;
+	font-size: 34px;
+}
+.education_page #section_3 p {
+	font-size: 24px;
+}
+.raiology_page #section_2 p {
+	padding: 0;
+}
+.raiology_page #section_2 h2 {
+	font-size: 34px;
+}
+.raiology_page .box-text-area-green {
+	min-height: 210px;
+	padding: 30px 20px 0;
+}
+.raiology_page .box-text-area {
+	min-height: 260px;
+}
+.raiology_page .box-text-area-green {
+	height: 620px !important;
+}
+.padding-radiology {
+	height: 480px !important;
+}
+.adj-width-pageheadingLabor h1 {
+	width: 360px;
+	font-size: 36px;
+}
+.lab-img {
+	height: 320px !important;
+}
+.surgery-text {
+	height: 750px !important;
+}
+.pageheadingSurgery h1 {
+	width: 140px;
+}
+.pageheadingSurgery p {
+	text-align: left;
+}
+#section_download {
+	height: 450px;
+}
+.medical-sec-3 .btn-download {
+	width: 80%;
+}
+.padding-labor {
+	min-height: 250px !important;
+}
+.padding-labor1 {
+	min-height: 230px !important;
+}
+.nursing-services #section_2 .row1 {
+	margin-bottom: 0 !important;
+}
+.public_3 p {
+	font-size: 24px;
+}
+#section_download .custom-btn {
+	margin: 0 auto 0 15px;
+}
+#section_scheduale .custom-btn {
+	margin: 0 auto 0 7px;
+}
+.padding-radiology1 {
+	height: 620px !important;
+}
+.innerheading-style-2 {
+	padding: 50px 25px 20px;
+}
+.medical-img {
+	height: 400px !important;
+}
+.health-text {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+}
+
+@media all and (max-width: 360px) {
+#cboxContent {
+	width: 35.7% !important;
+}
+.cboxPhoto {
+	width: 35% !important;
+}
+.medical-img {
+	height: 300px !important;
+}
+#nursery_page #section_2 .col-lg-5 input {
+	margin-left: 0px !important;
+}
+.about_page #section_5 .footer .custom-btn-border {
+	padding: 11px 84px;
+}
+.carousel-caption {
+	padding-top: 0;
+}
+.carousel-caption {
+	padding-left: 10% !important;
+}
+.carousel-caption .col-md-12 {
+	padding-right: 0px;
+	padding-left: 25px;
+}
+header.slider .carousel-inner .carousel-caption::before {
+	bottom: 20px !important;
+}
+.carousel-caption .slider-btn-cover .btn {
+	font-size: 18px;
+}
+.modern-madecine-single h1 {
+	font-size: 32px;
+}
+.modern-madecine-single {
+	padding: 30px 10px;
+}
+.main-modren-cover {
+	height: auto;
+}
+.our-services-container {
+	margin-top: 0;
+	padding: 5px;
+}
+.special-s-list {
+	padding-left: 0;
+}
+.events-list li {
+	width: 300px;
+}
+.modal-dialog {
+	width: 340px;
+	margin: 40px auto;
+}
+#myModal .carousel-inner > .item {
+	padding: 0 15px;
+}
+#myModal .carousel-inner > .item img {
+	height: 230px;
+	width: 190px;
+}
+.patient-info-container {
+	margin-top: 0;
+}
+.admission-sec {
+	padding: 40px 0;
+}
+.box-text-area {
+	min-height: 250px;
+	padding: 40px 30px;
+}
+.box-text-area-green {
+	padding: 20px 20px 0;
+}
+.box-text-area-green {
+	min-height: 230px;
+}
+.charity-sec {
+	padding-left: 0;
+	padding-right: 0;
+}
+.charity-content {
+	height: 800px;
+}
+.charity-btn-cover {
+	padding: 30px 0;
+}
+#banner .heading_education {
+	font-size: 24px;
+}
+.grey-box {
+	height: 520px;
+}
+.white-box {
+	height: 520px;
+}
+.white-box2 {
+	height: 520px;
+}
+.raiology_page .box-text-area {
+	min-height: 240px;
+}
+.box-img-area {
+	height: auto !important;
+}
+.raiology_page .box-text-area-green {
+	min-height: 230px;
+}
+.raiology_page #section_4 h2 {
+	font-size: 34px;
+}
+.acr-img {
+	width: 40%;
+}
+.raiology_page #section_0 {
+	height: 285px;
+}
+.padding-radiology {
+	height: 600px !important;
+}
+.padding-radiology1 {
+	height: 620px !important;
+}
+.padding-labor {
+	min-height: 240px !important;
+}
+.padding-labor1 {
+	min-height: 250px !important;
+}
+.adj-width-pageheadingLabor h1 {
+	width: 280px;
+	font-size: 30px;
+}
+#emergency_page #section_3 .text h2 {
+	font-size: 34px;
+}
+.surgery-text {
+	height: 840px !important;
+}
+#section_download {
+	height: 480px;
+}
+.medical-sec-3 .btn-download {
+	width: 90%;
+}
+.events-content h1 {
+	font-size: 36px;
+}
+.raiology_page .box-text-area-green {
+	height: 780px !important;
+}
+.test-text {
+	padding-bottom: 40px;
+	padding-left: 20px !important;
+}
+.medical-sec-3 .medical-list ul li {
+	padding-left: 45px;
+}
+#health-sec-test .img {
+	height: 390px !important;
+}
+}
+
+@media all and (max-width: 330px) {
+.modal-dialog {
+	margin: 20px auto;
+	width: 300px;
+}
+#cboxContent {
+	width: 31.8% !important;
+}
+.cboxPhoto {
+	width: 31% !important;
+}
+}
+
+@media all and (max-width: 320px) {
+.medical-img .btn-download {
+	margin-top: 46%;
+}
+.about_page #section_5 .footer .custom-btn-border {
+	padding: 11px 75px;
+}
+.about_page #section_5 .footer .btn {
+	font-size: 18px !important;
+}
+.carousel-caption {
+	width: 315px;
+}
+.modern-madecine-single {
+	padding: 30px 5px;
+}
+.our-serivces-headig h1 {
+	font-size: 29px;
+}
+.box-text-area {
+	min-height: 280px;
+}
+.box-text-area-green {
+	min-height: 200px;
+}
+.raiology_page .box-text-area {
+	min-height: 290px;
+}
+.raiology_page .box-text-area-green {
+	min-height: 290px;
+}
+.raiology_page .box-text-area-green {
+	height: 850px !important;
+}
+.padding-radiology {
+	height: 690px !important;
+}
+.padding-labor {
+	min-height: 220px !important;
+}
+.padding-labor1 {
+	min-height: 300px !important;
+}
+.contact-today-content h1 {
+	line-height: 48px;
+}
+#section_download {
+	height: 520px;
+}
+.medical-text {
+	height: 730px !important;
+	padding-top: 60px !important;
+}
+.medical-sec-3 .btn-download {
+	width: 95%;
+	font-size: 38px;
+}
+#section_scheduale .custom-btn {
+	font-size: 26px;
+	height: 90px;
+	line-height: 70px;
+}
+.padding-radiology1 {
+	height: 85 0px !important;
+}
+}
